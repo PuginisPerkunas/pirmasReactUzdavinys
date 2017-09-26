@@ -14,6 +14,7 @@ import {
   Alert,
   TouchableOpacity
 } from 'react-native';
+import Header from './src/component';
 
 export default class pirmaUzduotis extends Component {
 
@@ -36,6 +37,7 @@ export default class pirmaUzduotis extends Component {
         <Image style={styles.container} 
         source={{uri: 'https://www.desktopbackground.org/download/1080x1920/2015/11/30/1050111_enter-the-wormhole-anomalous-wallpapers_4096x3112_h.jpg'}}> 
 
+        <Header/>
 
         <Text style={styles.welcome}>
           Pirma React Native programa!
@@ -60,7 +62,6 @@ export default class pirmaUzduotis extends Component {
     );
   }
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,

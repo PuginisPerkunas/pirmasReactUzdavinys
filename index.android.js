@@ -44,11 +44,12 @@ export default class pirmaUzduotis extends Component {
           Paspauskite mygtuka, kad suzinotumete daugiau
         </Text>
         <TouchableOpacity 
-        
         style={{ height: 35, width:225, marginTop: 20, marginBottom: 20, backgroundColor: '#00bc67' }}>
-            <Text
-            onPress = {this.updateText}
-             style={{ textAlign: 'center', color:'#ffffff',margin: 8, fontSize:16 }}>SUZINOKITE</Text>
+             <Text
+               onPress = {this.updateText}
+               style={{ textAlign: 'center', color:'#ffffff',margin: 8, fontSize:16 }}>
+                 SUZINOKITE
+             </Text>
           </TouchableOpacity>
         <Text style={styles.instructions}>
         {this.state.startText}
